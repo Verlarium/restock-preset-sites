@@ -2,7 +2,7 @@
    {
       "Domain": "www.hottopic.com",
       "Statement": null,
-      "Mode": "Equals"
+      "Mode": "Equals",
       "Tags": {
          "Name": "//*[@class='product-name']",
          "Price": "//*[@class='value']",
