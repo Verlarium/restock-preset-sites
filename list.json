@@ -1,0 +1,15 @@
+[
+   {
+      "Domain": "www.hottopic.com",
+      "Tags": {
+         "Name": "//*[@class='product-name']",
+         "Price": "//*[@class='value']",
+         "Image": "//*[@class='primary-image']"
+      },
+      "Attributes": {
+         "Name": "innerHTML",
+         "Price": "innerHTML",
+         "Image": "src"
+      }
+   }
+]
