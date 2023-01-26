@@ -5,7 +5,7 @@
          "Name": "//*[@class='product-name']",
          "Price": "//*[@class='value']",
          "Image": "//*[@class='primary-image']",
-         "Availability": "//*[@class='.add-to-cart.btn.btn-primary']"
+         "Availability": "//*[@class='add-to-cart btn btn-primary']"
       },
       "Attributes": {
          "Name": "innerHTML",
