@@ -92,7 +92,7 @@
          "Name": "//*[@class='b lh-copy dark-gray mt1 mb2 f3']",
          "Price": "//*[@class='inline-flex flex-column']/span",
          "Image": "//*[@class='db']",
-         "Availability": "//*[@class='b gray lh-copy pt2-m flex fr-m f4']"
+         "Availability": "//*[@class='flex mt3 lh-copy']"
       },
       "Attributes": {
          "Name": "innerHTML",
