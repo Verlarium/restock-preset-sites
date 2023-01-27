@@ -66,5 +66,21 @@
          "Image": "src",
          "Availability": null
       }
-   }
+   },
+   {
+      "Domain": "www.homedepot.com",
+      "Statement": "0",
+      "Mode": "Less or Equal",
+      "Tags": {
+         "Name": "//*[@class='product-details__title']",
+         "Price": null,
+         "Image": "//*[@id='media-gallery']/div/div/div[2]/div/button/div/img",
+         "Availability": "//*[@class='u__text--danger fulfillment__oos']"
+      },
+      "Attributes": {
+         "Name": "innerHTML",
+         "Price": "innerHTML",
+         "Image": "src",
+         "Availability": null
+      }
 ]
