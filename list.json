@@ -35,13 +35,13 @@
    },
    {
       "Domain": "www.adafruit.com",
-      "Statement": "0",
-      "Mode": "Greater",
+      "Statement": "In stock",
+      "Mode": "Equals",
       "Tags": {
          "Name": "//*[@class='products_name']",
          "Price": "//*[@class='product-price']/span",
          "Image": "//*[@id='Slide1']",
-         "Availability": "//*[@class='blue-button addToCart add_to_cart_ec_multi']"
+         "Availability": "//*[@id='prod-stock']/span"
       },
       "Attributes": {
          "Name": "innerHTML",
