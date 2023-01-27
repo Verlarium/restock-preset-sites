@@ -23,7 +23,7 @@
       "Tags": {
          "Name": "//*[@class='product-single__title']",
          "Price": "//*[@class='price-item price-item--regular']",
-         "Image": "//*[@class='feature-row__image product-featured-media']",
+         "Image": "//*[@class='primary-image']",
          "Availability": "//*[@class='btn product-form__cart-submit']"
       },
       "Attributes": {
