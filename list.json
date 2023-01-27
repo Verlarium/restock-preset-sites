@@ -49,5 +49,22 @@
          "Image": "src",
          "Availability": "innerHTML"
       }
+   },
+   {
+      "Domain": "www.macys.com",
+      "Statement": "0",
+      "Mode": "Less or Equal",
+      "Tags": {
+         "Name": "//*[@class='h3']",
+         "Price": "//*[@class='lowest-sale-price']/span",
+         "Image": "//*[@class='main-picture']/img",
+         "Availability": "//*[@class='sdd disabled']"
+      },
+      "Attributes": {
+         "Name": "innerHTML",
+         "Price": "innerHTML",
+         "Image": "src",
+         "Availability": null
+      }
    }
 ]
