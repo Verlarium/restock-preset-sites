@@ -32,5 +32,22 @@
          "Image": "src",
          "Availability": "aria-label"
       }
+   },
+   {
+      "Domain": "www.adafruit.com",
+      "Statement": "Add to Cart",
+      "Mode": "Equals",
+      "Tags": {
+         "Name": "//*[@class='products_name']",
+         "Price": "//*[@class='product-price']/span",
+         "Image": "//*[@id='Slide1']",
+         "Availability": "//*[@class='blue-button addToCart add_to_cart_ec_multi']"
+      },
+      "Attributes": {
+         "Name": "innerHTML",
+         "Price": "innerHTML",
+         "Image": "src",
+         "Availability": "innerHTML"
+      }
    }
 ]
