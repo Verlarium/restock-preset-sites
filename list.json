@@ -36,12 +36,12 @@
    {
       "Domain": "www.adafruit.com",
       "Statement": "0",
-      "Mode": "Less or Equal",
+      "Mode": "Greater",
       "Tags": {
          "Name": "//*[@class='products_name']",
          "Price": "//*[@class='product-price']/span",
          "Image": "//*[@id='Slide1']",
-         "Availability": "//*[@class='oos-header']"
+         "Availability": "//*[@class='blue-button addToCart add_to_cart_ec_multi']"
       },
       "Attributes": {
          "Name": "innerHTML",
