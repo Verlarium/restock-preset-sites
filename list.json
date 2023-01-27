@@ -89,7 +89,7 @@
       "Statement": "0",
       "Mode": "Less or Equal",
       "Tags": {
-         "Name": "//*[@class='zoom-image']/img,
+         "Name": "//*[@class='zoom-image']/img",
          "Price": "//*[@class='inline-flex flex-column']/span",
          "Image": "//*[@class='zoom-image']/img",
          "Availability": "//*[@class='flex mt3 lh-copy']"
