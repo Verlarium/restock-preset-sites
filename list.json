@@ -21,7 +21,7 @@
       "Statement": "Add to cart",
       "Mode": "Equals",
       "Tags": {
-         "Name": "//*[@class='h1 product-single__title']",
+         "Name": "//*[@class='product-single__title']",
          "Price": "//*[@class='price-item price-item--regular']",
          "Image": "//*[@class='feature-row__image product-featured-media']",
          "Availability": "//*[@class='btn product-form__cart-submit']"
