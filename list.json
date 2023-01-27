@@ -79,7 +79,7 @@
       },
       "Attributes": {
          "Name": "innerHTML",
-         "Price": "innerHTML",
+         "Price": null,
          "Image": "src",
          "Availability": null
       }
