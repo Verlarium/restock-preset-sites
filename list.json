@@ -83,5 +83,22 @@
          "Image": "src",
          "Availability": null
       }
+   },
+   {
+      "Domain": "www.walmart.com",
+      "Statement": "0",
+      "Mode": "Less or Equal",
+      "Tags": {
+         "Name": "//*[@class='b lh-copy dark-gray mt1 mb2 f3']",
+         "Price": "//*[@class='inline-flex flex-column']/span",
+         "Image": "//*[@class='db']",
+         "Availability": "//*[@class='b gray lh-copy pt2-m flex fr-m f4']"
+      },
+      "Attributes": {
+         "Name": "innerHTML",
+         "Price": "innerHTML",
+         "Image": "src",
+         "Availability": null
+      }
    }
 ]
