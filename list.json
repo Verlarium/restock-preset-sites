@@ -70,7 +70,7 @@
    {
       "Domain": "www.homedepot.com",
       "Statement": "0",
-      "Mode": "Less or Equal",
+      "Mode": "Greater",
       "Tags": {
          "Name": "//*[@id='media-gallery']/div/div/div[2]/div/button/div/img",
          "Price": null,
